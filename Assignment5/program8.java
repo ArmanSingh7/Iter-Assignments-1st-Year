@@ -9,9 +9,11 @@ public class program8 {
         System.out.print("Enter the value of n: ");
         int n = sc.nextInt();
         int sum = 0;
-        for (int i = 1; i <= n; i++) {
-          for (int j = 1; j <= i; j++) {
-            sum += j;
+        for (int i = 1; i <= n; i++)//3
+{
+          for (int j = 1; j <= i; j++) //1
+          {
+            sum += j;//1  1+2 1+2+3
           }
         }
         System.out.println("The sum of the series is: " + sum);

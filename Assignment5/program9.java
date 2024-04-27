@@ -12,8 +12,9 @@ public class program9 {
         int n = sc.nextInt();
         double sum = 0;
     
-        for (int i = 1; i <= n; i++) {
-          sum += 1.0 / (i * i);
+        for (int i = 1; i <= n; i++) //3
+        {
+          sum += 1.0 / (i * i);//
         }
     
         System.out.println("The sum of the series is: " + sum);

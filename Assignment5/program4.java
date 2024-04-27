@@ -11,8 +11,8 @@ public class program4 {
 
         if (m < n && m > 0 && n > 0) {
             for (int i = m; i <= n; i++) {
-                long fact = 1;
-                for (int j = 1; j <= i; j++)
+                 int fact = 1;
+                for (int j = 1; j <= i; j++)//
                     fact *= j;
                 System.out.println("Factorial of " + i + " = " + fact);
             }

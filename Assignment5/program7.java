@@ -20,7 +20,7 @@ Write a program to print the following outputs using for loops:
      3 3 3 
    4 4 4 4 
  5 5 5 5 5  */
-import java.util.*;
+
 public class program7 {
     public static void main(String[]args){
         for (int i = 1; i <= 5; i++) {
